@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Todo App</header>
+      <div class="inputField">
+        <input type="text" id="enterInput" placeholder="Add your new todo" />
+        <button><i class="fas fa-plus"></i></button>
+      </div>
+      <ul class="todoList">
+        <!-- data are comes from local storage -->
+      </ul>
+      <div class="footer">
+        <span>You have <span class="pendingTasks"></span> pending tasks</span>
+        <button class="clearbutton">Clear All</button>
+      </div>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
